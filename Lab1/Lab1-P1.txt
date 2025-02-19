@@ -1,0 +1,9 @@
+1. 
+a) gpio_config() is an all-in-one API that can be used to configure the I/O mode, internal pull-up/pull-down resistors, etc. for pins.
+b) can also be configured as an input or as a peripheral signal input/output.
+c) Delays a task for a given number of ticks. The actual time that the task remains blocked depends on the tick rate.
+d)
+Application startup covers everything that happens after the app starts executing and before the app_main function starts running inside the main task.
+-Port initialization of hardware and basic C runtime environment.
+-System initialization of software services and FreeRTOS.
+-Running the main task and calling app_main.
